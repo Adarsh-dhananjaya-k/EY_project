@@ -532,5 +532,149 @@
     "user_id": "manager_01",
     "user_message": "9240120478 to team b",
     "bot_response": "I was unable to locate ticket 9240120478. Please verify the ticket ID or provide a different one so I can reassign it to Team B."
+  },
+  {
+    "time": "2026-01-31 12:27:26.615417",
+    "user_id": "manager_01",
+    "user_message": "which all teams are working right now",
+    "bot_response": "Currently, the following teams are actively working on tickets:\n- Team B\n- Team C\n- Team A\n- Team D\n\nTheir open ticket counts are B: 29, C: 28, A: 22, D: 21."
+  },
+  {
+    "time": "2026-01-31 12:29:26.896359",
+    "user_id": "manager_01",
+    "user_message": "show me the status of all the team members and",
+    "bot_response": "Could you please clarify what specific status you’re looking for regarding the team members? For example, would you like their ticket workload, performance statistics, or details on individual ticket assignments? Let me know so I can provide the most relevant information."
+  },
+  {
+    "time": "2026-01-31 12:29:51.225740",
+    "user_id": "manager_01",
+    "user_message": "show me all the team and team members",
+    "bot_response": "I currently do not have direct access to a roster of all teams and their individual members. However, I can display performance statistics or ticket assignments for known teams (A, B, C, and D). \n\nWould you like to see team members’ performance statistics for one or more specific teams? If yes, please specify which team(s) (A, B, C, D) you are interested in."
+  },
+  {
+    "time": "2026-01-31 12:31:46.168288",
+    "user_id": "manager_01",
+    "user_message": "show me the members of team A<B<C<D",
+    "bot_response": "It appears there was an error retrieving the members of Team A. I’ll attempt to fetch the members and performance details for Teams B, C, and D as well. Do you want performance stats or just the names of members? Please clarify how detailed you want the member information to be for each team."
+  },
+  {
+    "time": "2026-01-31 12:32:21.369170",
+    "user_id": "manager_01",
+    "user_message": "show me the members of team A,B,C,d",
+    "bot_response": "Action completed."
+  },
+  {
+    "time": "2026-01-31 12:41:52.508213",
+    "user_id": "manager_01",
+    "user_message": "show me the members of team A,B,C,D",
+    "bot_response": "Action completed."
+  },
+  {
+    "time": "2026-01-31 12:42:19.594394",
+    "user_id": "manager_01",
+    "user_message": "show me who is working which team",
+    "bot_response": "I don't have a direct tool to list members assigned to each team by name. However, I can provide performance statistics for individuals within each team (A, B, C, D), which will display their names and related metrics.\n\nWould you like to proceed with viewing the current performance statistics for team members in all teams? This will show who is active within each team. Please confirm so I can retrieve this information."
+  },
+  {
+    "time": "2026-01-31 13:00:25.118687",
+    "user_id": "manager_01",
+    "user_message": "show me the open tickerts of team a",
+    "bot_response": "Here are the open and in-progress tickets for Team A and their assigned team members:\n\n- John: 1 open (High priority)\n- Jacob: 1 open (Medium priority), 1 in progress (Medium)\n- Michael: 2 in progress (Medium)\n- Miller: 1 open (Medium), 1 in progress (Medium)\n- David: 1 in progress (Medium), 1 open (Low)\n- Andrew: 1 in progress (High)\n- Robert: 3 in progress (2 High, 1 Medium)\n- Joseph: 1 open (High), 1 in progress (Low)\n\nIf you need full ticket details or want to filter by priority/type, let me know!"
+  },
+  {
+    "time": "2026-01-31 13:01:33.695323",
+    "user_id": "manager_01",
+    "user_message": "resign the jacobs tickets to andrew",
+    "bot_response": "I couldn't find the ticket with ID 9329664820 for reassignment. Could you please confirm the ticket IDs you want to reassign from Jacob to Andrew, or provide more details so I can process your request accurately?"
+  },
+  {
+    "time": "2026-01-31 13:56:30.888134",
+    "user_id": "manager_01",
+    "user_message": "show me the open tickerts of team a",
+    "bot_response": "Here are the open tickets for Team A:\n\n1. John  \n • Ticket ID: 9240120478  \n • Priority: High  \n • Category: Hardware  \n • Created: 2026-01-01\n\n2. Jacob  \n • Ticket ID: 9329664820  \n • Priority: Medium  \n • Category: Software  \n • Created: 2026-01-21\n\n3. Miller  \n • Ticket ID: 1553559558  \n • Priority: Medium  \n • Category: Software  \n • Created: 2026-01-05\n\n4. David  \n • Ticket ID: 1301345282  \n • Priority: Low  \n • Category: Hardware  \n • Created: 2026-01-02\n\n5. Joseph  \n • Ticket ID: 4403882018  \n • Priority: High  \n • Category: Software  \n • Created: 2026-01-05\n\nIf you need details on \"In Progress\" tickets or want to take any action on these, let me know!"
+  },
+  {
+    "time": "2026-01-31 14:03:07.157887",
+    "user_id": "manager_01",
+    "user_message": "give me the list of all the project who is has Category: Hardware",
+    "bot_response": "Here are the open tickets with Category: Hardware in Team A:\n\n1. Ticket ID: 9240120478  \n • Assigned to: John  \n • Priority: High  \n • Created: 2026-01-01\n\n2. Ticket ID: 1301345282  \n • Assigned to: David  \n • Priority: Low  \n • Created: 2026-01-02\n\nThese are the current hardware-related open projects/tickets for Team A. If you need full details or want to take any action, let me know!"
+  },
+  {
+    "time": "2026-01-31 14:03:09.622442",
+    "user_id": "manager_01",
+    "user_message": "give me the list of all the project who is has Category: Hardware",
+    "bot_response": "Here are the open tickets for Team A with Category: Hardware:\n\n1. John  \n • Ticket ID: 9240120478  \n • Priority: High  \n • Created: 2026-01-01\n\n2. David  \n • Ticket ID: 1301345282  \n • Priority: Low  \n • Created: 2026-01-02\n\nIf you need further details or tickets for other teams or categories, let me know!"
+  },
+  {
+    "time": "2026-01-31 14:03:51.806150",
+    "user_id": "manager_01",
+    "user_message": "show all the tickets who has Category: Hardware",
+    "bot_response": "Here are some recent tickets with Category: Hardware (from multiple teams and statuses):\n\n1. David (Team A)  \n • Ticket ID: 1301345282  \n • Status: Open  \n • Priority: Low  \n • Created: 2026-01-02\n\n2. Jacob (Team A)  \n • Ticket ID: 8772936036  \n • Status: Closed  \n • Priority: High  \n • Created: 2026-01-13  \n • Closed: 2026-01-15\n\n3. Jacob (Team A)  \n • Ticket ID: 7119732110  \n • Status: In Progress  \n • Priority: Medium  \n • Created: 2026-01-01\n\n4. John (Team A)  \n • Ticket ID: 9240120478  \n • Status: Open  \n • Priority: High  \n • Created: 2026-01-01\n\n5. Jordan (Team A)  \n • Ticket ID: 2471021606  \n • Status: Closed  \n • Priority: Medium  \n • Created: 2026-01-18  \n • Closed: 2026-01-19\n\n6. Jordan (Team A)  \n • Ticket ID: 9044446347  \n • Status: Closed  \n • Priority: High  \n • Created: 2026-01-07  \n • Closed: 2026-01-10\n\n7. Jordan (Team A)  \n • Ticket ID: 8474192921  \n • Status: Closed  \n • Priority: Low  \n • Created: 2026-01-07  \n • Closed: 2026-01-12\n\nThis is a sample from the available tickets. If you need the full list or tickets from a specific team/status, please specify!"
+  },
+  {
+    "time": "2026-01-31 14:03:52.499639",
+    "user_id": "manager_01",
+    "user_message": "show all the tickets who has Category: Hardware",
+    "bot_response": "Action completed."
+  },
+  {
+    "time": "2026-01-31 14:18:19.140744",
+    "user_id": "manager_01",
+    "user_message": "how me software tickets for Andrew created on 2026-01-04",
+    "bot_response": "Andrew has the following software ticket created on 2026-01-04:\n\n- Ticket ID: 8184527810\n- Status: In Progress\n- Priority: High\n- Team: A\n\nIf you need further details or want to take any action on this ticket, let me know!"
+  },
+  {
+    "time": "2026-01-31 14:22:16.090428",
+    "user_id": "manager_01",
+    "user_message": "show the David",
+    "bot_response": "Here is a list of tickets assigned to David, across multiple teams:\n\n**Team A**\n- Ticket ID: 5970549270 | Status: In Progress | Priority: Medium | Category: Software | Created: 2026-01-05\n- Ticket ID: 1301345282 | Status: Open | Priority: Low | Category: Hardware | Created: 2026-01-02\n\n**Team B**\n- Ticket ID: 6595725730 | Status: Closed | Priority: Low | Category: Software | Created: 2026-01-18 | Closed: 2026-01-19\n- Ticket ID: 8165009779 | Status: Closed | Priority: Medium | Category: Software | Created: 2026-01-02 | Closed: 2026-01-07\n\n**Team C**\n- Ticket ID: 7572774661 | Status: In Progress | Priority: High | Category: Software | Created: 2026-01-13\n- Ticket ID: 5976524409 | Status: In Progress | Priority: Low | Category: Hardware | Created: 2026-01-03\n- Ticket ID: 1842071253 | Status: Open | Priority: Low | Category: Software | Created: 2026-01-14\n\n**Team D**\n- Ticket ID: 7900488353 | Status: Open | Priority: High | Category: Hardware | Created: 2026-01-03\n- Ticket ID: 6690380399 | Status: Open | Priority: Low | Category: Hardware | Created: 2026-01-20\n- Ticket ID: 3670172780 | Status: Closed | Priority: Low | Category: Software | Created: 2026-01-01 | Closed: 2026-01-05\n\nIf you'd like details on a specific ticket or further filtering, let me know!"
+  },
+  {
+    "time": "2026-01-31 14:22:18.843844",
+    "user_id": "manager_01",
+    "user_message": "show the David",
+    "bot_response": "Here are David's tickets across teams:\n\nTeam A\n- Ticket ID: 5970549270 | Status: In Progress | Priority: Medium | Category: Software | Created: 2026-01-05\n- Ticket ID: 1301345282 | Status: Open | Priority: Low | Category: Hardware | Created: 2026-01-02\n\nTeam B\n- Ticket ID: 6595725730 | Status: Closed | Priority: Low | Category: Software | Created: 2026-01-18 | Closed: 2026-01-19\n- Ticket ID: 8165009779 | Status: Closed | Priority: Medium | Category: Software | Created: 2026-01-02 | Closed: 2026-01-07\n\nTeam C\n- Ticket ID: 7572774661 | Status: In Progress | Priority: High | Category: Software | Created: 2026-01-13\n- Ticket ID: 5976524409 | Status: In Progress | Priority: Low | Category: Hardware | Created: 2026-01-03\n- Ticket ID: 1842071253 | Status: Open | Priority: Low | Category: Software | Created: 2026-01-14\n\nTeam D\n- Ticket ID: 7900488353 | Status: Open | Priority: High | Category: Hardware | Created: 2026-01-03\n- Ticket ID: 6690380399 | Status: Open | Priority: Low | Category: Hardware | Created: 2026-01-20\n- Ticket ID: 3670172780 | Status: Closed | Priority: Low | Category: Software | Created: 2026-01-01 | Closed: 2026-01-05\n\nIf you need details about a specific ticket or want to take action, let me know!"
+  },
+  {
+    "time": "2026-01-31 14:22:20.765289",
+    "user_id": "manager_01",
+    "user_message": "show the David",
+    "bot_response": "Here are the tickets assigned to David across different teams and categories:\n\nTeam A:\n- Ticket ID: 5970549270 | Status: In Progress | Priority: Medium | Category: Software | Created: 2026-01-05\n- Ticket ID: 1301345282 | Status: Open | Priority: Low | Category: Hardware | Created: 2026-01-02\n\nTeam B:\n- Ticket ID: 6595725730 | Status: Closed | Priority: Low | Category: Software | Created: 2026-01-18 | Closed: 2026-01-19\n- Ticket ID: 8165009779 | Status: Closed | Priority: Medium | Category: Software | Created: 2026-01-02 | Closed: 2026-01-07\n\nTeam C:\n- Ticket ID: 7572774661 | Status: In Progress | Priority: High | Category: Software | Created: 2026-01-13\n- Ticket ID: 5976524409 | Status: In Progress | Priority: Low | Category: Hardware | Created: 2026-01-03\n- Ticket ID: 1842071253 | Status: Open | Priority: Low | Category: Software | Created: 2026-01-14\n\nTeam D:\n- Ticket ID: 7900488353 | Status: Open | Priority: High | Category: Hardware | Created: 2026-01-03\n- Ticket ID: 6690380399 | Status: Open | Priority: Low | Category: Hardware | Created: 2026-01-20\n- Ticket ID: 3670172780 | Status: Closed | Priority: Low | Category: Software | Created: 2026-01-01 | Closed: 2026-01-05\n\nLet me know if you want details or actions on any specific ticket!"
+  },
+  {
+    "time": "2026-01-31 14:22:23.229512",
+    "user_id": "manager_01",
+    "user_message": "show the David",
+    "bot_response": "Here are all tickets assigned to David:\n\nTeam A:\n- Ticket ID: 5970549270 | Status: In Progress | Priority: Medium | Category: Software | Created: 2026-01-05\n- Ticket ID: 1301345282 | Status: Open | Priority: Low | Category: Hardware | Created: 2026-01-02\n\nTeam B:\n- Ticket ID: 6595725730 | Status: Closed | Priority: Low | Category: Software | Created: 2026-01-18 | Closed: 2026-01-19\n- Ticket ID: 8165009779 | Status: Closed | Priority: Medium | Category: Software | Created: 2026-01-02 | Closed: 2026-01-07\n\nTeam C:\n- Ticket ID: 7572774661 | Status: In Progress | Priority: High | Category: Software | Created: 2026-01-13\n- Ticket ID: 5976524409 | Status: In Progress | Priority: Low | Category: Hardware | Created: 2026-01-03\n- Ticket ID: 1842071253 | Status: Open | Priority: Low | Category: Software | Created: 2026-01-14\n\nTeam D:\n- Ticket ID: 7900488353 | Status: Open | Priority: High | Category: Hardware | Created: 2026-01-03\n- Ticket ID: 6690380399 | Status: Open | Priority: Low | Category: Hardware | Created: 2026-01-20\n- Ticket ID: 3670172780 | Status: Closed | Priority: Low | Category: Software | Created: 2026-01-01 | Closed: 2026-01-05\n\nLet me know if you'd like details on a specific ticket or want to take any action."
+  },
+  {
+    "time": "2026-01-31 14:23:16.194121",
+    "user_id": "manager_01",
+    "user_message": "show me the tickets of David from team A",
+    "bot_response": "David's tickets from Team A:\n\n1. Ticket ID: 5970549270\n   - Status: In Progress\n   - Priority: Medium\n   - Category: Software\n   - Created: 2026-01-05\n\n2. Ticket ID: 1301345282\n   - Status: Open\n   - Priority: Low\n   - Category: Hardware\n   - Created: 2026-01-02\n\nLet me know if you need more details or want to take an action on these tickets!"
+  },
+  {
+    "time": "2026-01-31 14:24:13.778995",
+    "user_id": "manager_01",
+    "user_message": "reassign the ticket  1301345282 to  Andrew from Team A",
+    "bot_response": "The system could not find ticket 1301345282 for reassignment. Please verify the ticket ID or provide more details so I can assist you further."
+  },
+  {
+    "time": "2026-01-31 14:24:14.361551",
+    "user_id": "manager_01",
+    "user_message": "reassign the ticket  1301345282 to  Andrew from Team A",
+    "bot_response": "I'm unable to reassign ticket 1301345282 because it could not be found. Please verify the ticket ID or let me know if you need further assistance with another ticket."
+  },
+  {
+    "time": "2026-01-31 14:24:46.701240",
+    "user_id": "manager_01",
+    "user_message": "show the ticket 1301345282",
+    "bot_response": "Ticket details for 1301345282:\n\n- Person Name: David\n- Team: A\n- Status: Open\n- Priority: Low\n- Category: Hardware\n- Created: 2026-01-02\n\nIf you want to reassign this ticket or need further action/information, please specify. Currently, Andrew does not have this ticket. If you want to reassign this ticket to Andrew (Team A), just confirm and I'll proceed."
+  },
+  {
+    "time": "2026-01-31 14:25:07.272914",
+    "user_id": "manager_01",
+    "user_message": "reassign the ticket  1301345282 to  Andrew from Team A",
+    "bot_response": "I'm unable to reassign ticket 1301345282 because it could not be found in the system for reassignment. Please check the ticket details or let me know if you need help with a different ticket."
   }
 ]

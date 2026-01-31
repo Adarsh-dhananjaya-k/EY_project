@@ -1,6 +1,82 @@
 from table_db import get_all_tickets_df, update_ticket
 import pandas as pd
 import numpy as np
+import json
+import os
+
+JSON_FILE = "tickets_structure.json"
+
+def query_tickets_json(team_name: str = None, person_name: str = None, status: str = None, priority: str = None, ticket_category: str = None, 
+                       ticket_id: str = None, person_id: str = None, create_date: str = None, closed_date: str = None):
+    """
+    Query the hierarchical JSON data for tickets based on ALL available fields.
+    Args:
+        team_name: Filter by Team Name (e.g., 'A', 'B')
+        person_name: Filter by Person Name
+        status: Filter by 'Ticket Status' (Open, Closed, In Progress)
+        priority: Filter by 'Ticket Priority' (High, Medium, Low)
+        ticket_category: Filter by 'Ticket Category' (Hardware, Software)
+        ticket_id: Filter by 'Ticket ID'
+        person_id: Filter by 'Person ID'
+        create_date: Filter by 'Ticket Create Date'
+        closed_date: Filter by 'Ticket Closed Date'
+    """
+    if not os.path.exists(JSON_FILE):
+        return "Error: tickets_structure.json not found. Please run the conversion script first."
+
+    try:
+        with open(JSON_FILE, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+    except Exception as e:
+        return f"Error reading JSON file: {str(e)}"
+
+    results = []
+    
+    # helper to check if a ticket matches filters
+    def ticket_matches(ticket):
+        # Case insensitive string comparisons, direct equality for IDs
+        if status and ticket.get("Ticket Status", "").lower() != status.lower(): return False
+        if priority and ticket.get("Ticket Priority", "").lower() != priority.lower(): return False
+        if ticket_category and ticket.get("Ticket Category", "").lower() != ticket_category.lower(): return False
+        if ticket_id and str(ticket.get("Ticket ID", "")) != str(ticket_id): return False
+        if person_id and str(ticket.get("Person ID", "")) != str(person_id): return False
+        
+        # Date string matching (exact match for simplicity, can be expanded to range if needed)
+        if create_date and str(ticket.get("Ticket Create Date", "")) != create_date: return False
+        if closed_date and str(ticket.get("Ticket Closed Date", "")) != closed_date: return False
+        
+        return True
+
+    teams_to_search = data.get("teams", [])
+    
+    # Filter by Team Level
+    if team_name:
+        teams_to_search = [t for t in teams_to_search if t["team_name"].lower() == team_name.lower()]
+        if not teams_to_search:
+            return f"No data found for Team '{team_name}'."
+
+    for team in teams_to_search:
+        members_to_search = team.get("members", [])
+        
+        # Filter by Person Level
+        if person_name:
+            members_to_search = [m for m in members_to_search if m["person_name"].lower() == person_name.lower()]
+        
+        for member in members_to_search:
+            # Filter Tickets
+            for ticket in member.get("tickets", []):
+                if ticket_matches(ticket):
+                    results.append(ticket)
+
+    if not results:
+        return "No tickets found matching your criteria."
+
+    # Return a concise summary if too many results
+    count = len(results)
+    if count > 10:
+        return f"Found {count} matching tickets. Here are the first 10:\n" + json.dumps(results[:10], indent=2)
+    
+    return json.dumps(results, indent=2)
 
 
 def get_ticket_summary():

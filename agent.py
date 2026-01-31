@@ -69,6 +69,7 @@ tools_map = {
     "get_overloaded_agents": tools.get_overloaded_agents,
     "get_performance_by_person_in_team": tools.get_performance_by_person_in_team,
     "get_top_performer_in_team": tools.get_top_performer_in_team,
+    "query_tickets_json": tools.query_tickets_json,
 }
 
 
@@ -264,6 +265,27 @@ Core Rules:
                     "type": "object",
                     "properties": {"team_name": {"type": "string"}},
                     "required": ["team_name"]
+                }
+            }
+        },
+        {
+            "type": "function",
+            "function": {
+                "name": "query_tickets_json",
+                "description": "Query the hierarchical JSON data for tickets based on any combination of ticket fields.",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "team_name": {"type": "string", "description": "Filter by Team Name (A, B, C...)"},
+                        "person_name": {"type": "string", "description": "Filter by Person Name"},
+                        "status": {"type": "string", "description": "Ticket Status (Open, Closed, In Progress)"},
+                        "priority": {"type": "string", "description": "Ticket Priority (High, Medium, Low)"},
+                        "ticket_category": {"type": "string", "description": "Ticket Category (Hardware, Software)"},
+                        "ticket_id": {"type": "string", "description": "Exact Ticket ID"},
+                        "person_id": {"type": "string", "description": "Exact Person ID"},
+                        "create_date": {"type": "string", "description": "Ticket Create Date (YYYY-MM-DD HH:MM:SS)"},
+                        "closed_date": {"type": "string", "description": "Ticket Closed Date (YYYY-MM-DD HH:MM:SS)"}
+                    }
                 }
             }
         }

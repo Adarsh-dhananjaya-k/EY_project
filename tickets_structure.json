@@ -1,0 +1,1344 @@
+{
+    "teams": [
+        {
+            "team_name": "A",
+            "members": [
+                {
+                    "person_name": "Andrew",
+                    "tickets": [
+                        {
+                            "Person ID": 181809,
+                            "Ticket ID": 8184527810,
+                            "Person Name": "Andrew",
+                            "Team Name": "A",
+                            "Ticket Status": "In Progress",
+                            "Ticket Priority": "High",
+                            "Ticket Create Date": "2026-01-04 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Software"
+                        }
+                    ]
+                },
+                {
+                    "person_name": "David",
+                    "tickets": [
+                        {
+                            "Person ID": 617423,
+                            "Ticket ID": 5970549270,
+                            "Person Name": "David",
+                            "Team Name": "A",
+                            "Ticket Status": "In Progress",
+                            "Ticket Priority": "Medium",
+                            "Ticket Create Date": "2026-01-05 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Software"
+                        },
+                        {
+                            "Person ID": 617423,
+                            "Ticket ID": 1301345282,
+                            "Person Name": "David",
+                            "Team Name": "A",
+                            "Ticket Status": "Open",
+                            "Ticket Priority": "Low",
+                            "Ticket Create Date": "2026-01-02 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Hardware"
+                        }
+                    ]
+                },
+                {
+                    "person_name": "Jacob",
+                    "tickets": [
+                        {
+                            "Person ID": 818410,
+                            "Ticket ID": 8772936036,
+                            "Person Name": "Jacob",
+                            "Team Name": "A",
+                            "Ticket Status": "Closed",
+                            "Ticket Priority": "High",
+                            "Ticket Create Date": "2026-01-13 00:00:00",
+                            "Ticket Closed Date": "2026-01-15 00:00:00",
+                            "Ticket Category": "Hardware"
+                        },
+                        {
+                            "Person ID": 818410,
+                            "Ticket ID": 9329664820,
+                            "Person Name": "Jacob",
+                            "Team Name": "A",
+                            "Ticket Status": "Open",
+                            "Ticket Priority": "Medium",
+                            "Ticket Create Date": "2026-01-21 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Software"
+                        },
+                        {
+                            "Person ID": 818410,
+                            "Ticket ID": 7119732110,
+                            "Person Name": "Jacob",
+                            "Team Name": "A",
+                            "Ticket Status": "In Progress",
+                            "Ticket Priority": "Medium",
+                            "Ticket Create Date": "2026-01-01 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Hardware"
+                        }
+                    ]
+                },
+                {
+                    "person_name": "John",
+                    "tickets": [
+                        {
+                            "Person ID": 709111,
+                            "Ticket ID": 9240120478,
+                            "Person Name": "John",
+                            "Team Name": "A",
+                            "Ticket Status": "Open",
+                            "Ticket Priority": "High",
+                            "Ticket Create Date": "2026-01-01 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Hardware"
+                        }
+                    ]
+                },
+                {
+                    "person_name": "Jordan",
+                    "tickets": [
+                        {
+                            "Person ID": 619713,
+                            "Ticket ID": 2471021606,
+                            "Person Name": "Jordan",
+                            "Team Name": "A",
+                            "Ticket Status": "Closed",
+                            "Ticket Priority": "Medium",
+                            "Ticket Create Date": "2026-01-18 00:00:00",
+                            "Ticket Closed Date": "2026-01-19 00:00:00",
+                            "Ticket Category": "Hardware"
+                        },
+                        {
+                            "Person ID": 619713,
+                            "Ticket ID": 9044446347,
+                            "Person Name": "Jordan",
+                            "Team Name": "A",
+                            "Ticket Status": "Closed",
+                            "Ticket Priority": "High",
+                            "Ticket Create Date": "2026-01-07 00:00:00",
+                            "Ticket Closed Date": "2026-01-10 00:00:00",
+                            "Ticket Category": "Hardware"
+                        },
+                        {
+                            "Person ID": 619713,
+                            "Ticket ID": 8474192921,
+                            "Person Name": "Jordan",
+                            "Team Name": "A",
+                            "Ticket Status": "Closed",
+                            "Ticket Priority": "Low",
+                            "Ticket Create Date": "2026-01-07 00:00:00",
+                            "Ticket Closed Date": "2026-01-12 00:00:00",
+                            "Ticket Category": "Hardware"
+                        }
+                    ]
+                },
+                {
+                    "person_name": "Joseph",
+                    "tickets": [
+                        {
+                            "Person ID": 559590,
+                            "Ticket ID": 4403882018,
+                            "Person Name": "Joseph",
+                            "Team Name": "A",
+                            "Ticket Status": "Open",
+                            "Ticket Priority": "High",
+                            "Ticket Create Date": "2026-01-05 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Software"
+                        },
+                        {
+                            "Person ID": 559590,
+                            "Ticket ID": 2896948582,
+                            "Person Name": "Joseph",
+                            "Team Name": "A",
+                            "Ticket Status": "In Progress",
+                            "Ticket Priority": "Low",
+                            "Ticket Create Date": "2026-01-02 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Hardware"
+                        },
+                        {
+                            "Person ID": 559590,
+                            "Ticket ID": 6919066309,
+                            "Person Name": "Joseph",
+                            "Team Name": "A",
+                            "Ticket Status": "Closed",
+                            "Ticket Priority": "High",
+                            "Ticket Create Date": "2026-01-11 00:00:00",
+                            "Ticket Closed Date": "2026-01-13 00:00:00",
+                            "Ticket Category": "Software"
+                        }
+                    ]
+                },
+                {
+                    "person_name": "Michael",
+                    "tickets": [
+                        {
+                            "Person ID": 566844,
+                            "Ticket ID": 2766179649,
+                            "Person Name": "Michael",
+                            "Team Name": "A",
+                            "Ticket Status": "In Progress",
+                            "Ticket Priority": "Medium",
+                            "Ticket Create Date": "2026-01-08 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Hardware"
+                        },
+                        {
+                            "Person ID": 566844,
+                            "Ticket ID": 6584934660,
+                            "Person Name": "Michael",
+                            "Team Name": "A",
+                            "Ticket Status": "In Progress",
+                            "Ticket Priority": "Medium",
+                            "Ticket Create Date": "2026-01-16 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Hardware"
+                        }
+                    ]
+                },
+                {
+                    "person_name": "Miller",
+                    "tickets": [
+                        {
+                            "Person ID": 718293,
+                            "Ticket ID": 1553559558,
+                            "Person Name": "Miller",
+                            "Team Name": "A",
+                            "Ticket Status": "Open",
+                            "Ticket Priority": "Medium",
+                            "Ticket Create Date": "2026-01-05 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Software"
+                        },
+                        {
+                            "Person ID": 718293,
+                            "Ticket ID": 1665905809,
+                            "Person Name": "Miller",
+                            "Team Name": "A",
+                            "Ticket Status": "Closed",
+                            "Ticket Priority": "Medium",
+                            "Ticket Create Date": "2026-01-05 00:00:00",
+                            "Ticket Closed Date": "2026-01-07 00:00:00",
+                            "Ticket Category": "Hardware"
+                        },
+                        {
+                            "Person ID": 718293,
+                            "Ticket ID": 7609535595,
+                            "Person Name": "Miller",
+                            "Team Name": "A",
+                            "Ticket Status": "In Progress",
+                            "Ticket Priority": "Medium",
+                            "Ticket Create Date": "2026-01-13 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Software"
+                        }
+                    ]
+                },
+                {
+                    "person_name": "Robert",
+                    "tickets": [
+                        {
+                            "Person ID": 720928,
+                            "Ticket ID": 5582136353,
+                            "Person Name": "Robert",
+                            "Team Name": "A",
+                            "Ticket Status": "In Progress",
+                            "Ticket Priority": "High",
+                            "Ticket Create Date": "2026-01-06 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Hardware"
+                        },
+                        {
+                            "Person ID": 720928,
+                            "Ticket ID": 4018495308,
+                            "Person Name": "Robert",
+                            "Team Name": "A",
+                            "Ticket Status": "In Progress",
+                            "Ticket Priority": "Medium",
+                            "Ticket Create Date": "2026-01-18 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Software"
+                        },
+                        {
+                            "Person ID": 720928,
+                            "Ticket ID": 3477529842,
+                            "Person Name": "Robert",
+                            "Team Name": "A",
+                            "Ticket Status": "In Progress",
+                            "Ticket Priority": "Medium",
+                            "Ticket Create Date": "2026-01-17 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Hardware"
+                        }
+                    ]
+                },
+                {
+                    "person_name": "Thomas",
+                    "tickets": [
+                        {
+                            "Person ID": 456159,
+                            "Ticket ID": 7855805215,
+                            "Person Name": "Thomas",
+                            "Team Name": "A",
+                            "Ticket Status": "Closed",
+                            "Ticket Priority": "Low",
+                            "Ticket Create Date": "2026-01-07 00:00:00",
+                            "Ticket Closed Date": "2026-01-11 00:00:00",
+                            "Ticket Category": "Software"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "team_name": "B",
+            "members": [
+                {
+                    "person_name": "Andrew",
+                    "tickets": [
+                        {
+                            "Person ID": 181809,
+                            "Ticket ID": 7544934448,
+                            "Person Name": "Andrew",
+                            "Team Name": "B",
+                            "Ticket Status": "Open",
+                            "Ticket Priority": "Medium",
+                            "Ticket Create Date": "2026-01-06 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Software"
+                        }
+                    ]
+                },
+                {
+                    "person_name": "David",
+                    "tickets": [
+                        {
+                            "Person ID": 617423,
+                            "Ticket ID": 6595725730,
+                            "Person Name": "David",
+                            "Team Name": "B",
+                            "Ticket Status": "Closed",
+                            "Ticket Priority": "Low",
+                            "Ticket Create Date": "2026-01-18 00:00:00",
+                            "Ticket Closed Date": "2026-01-19 00:00:00",
+                            "Ticket Category": "Software"
+                        },
+                        {
+                            "Person ID": 617423,
+                            "Ticket ID": 8165009779,
+                            "Person Name": "David",
+                            "Team Name": "B",
+                            "Ticket Status": "Closed",
+                            "Ticket Priority": "Medium",
+                            "Ticket Create Date": "2026-01-02 00:00:00",
+                            "Ticket Closed Date": "2026-01-07 00:00:00",
+                            "Ticket Category": "Software"
+                        }
+                    ]
+                },
+                {
+                    "person_name": "Jacob",
+                    "tickets": [
+                        {
+                            "Person ID": 818410,
+                            "Ticket ID": 8001535879,
+                            "Person Name": "Jacob",
+                            "Team Name": "B",
+                            "Ticket Status": "Open",
+                            "Ticket Priority": "High",
+                            "Ticket Create Date": "2026-01-13 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Software"
+                        },
+                        {
+                            "Person ID": 818410,
+                            "Ticket ID": 1329655671,
+                            "Person Name": "Jacob",
+                            "Team Name": "B",
+                            "Ticket Status": "Closed",
+                            "Ticket Priority": "High",
+                            "Ticket Create Date": "2026-01-04 00:00:00",
+                            "Ticket Closed Date": "2026-01-05 00:00:00",
+                            "Ticket Category": "Hardware"
+                        },
+                        {
+                            "Person ID": 818410,
+                            "Ticket ID": 3445001956,
+                            "Person Name": "Jacob",
+                            "Team Name": "B",
+                            "Ticket Status": "Closed",
+                            "Ticket Priority": "High",
+                            "Ticket Create Date": "2026-01-02 00:00:00",
+                            "Ticket Closed Date": "2026-01-07 00:00:00",
+                            "Ticket Category": "Hardware"
+                        }
+                    ]
+                },
+                {
+                    "person_name": "James",
+                    "tickets": [
+                        {
+                            "Person ID": 665937,
+                            "Ticket ID": 8836374986,
+                            "Person Name": "James",
+                            "Team Name": "B",
+                            "Ticket Status": "Closed",
+                            "Ticket Priority": "High",
+                            "Ticket Create Date": "2026-01-12 00:00:00",
+                            "Ticket Closed Date": "2026-01-15 00:00:00",
+                            "Ticket Category": "Hardware"
+                        },
+                        {
+                            "Person ID": 665937,
+                            "Ticket ID": 7081689091,
+                            "Person Name": "James",
+                            "Team Name": "B",
+                            "Ticket Status": "Open",
+                            "Ticket Priority": "Medium",
+                            "Ticket Create Date": "2026-01-04 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Hardware"
+                        }
+                    ]
+                },
+                {
+                    "person_name": "John",
+                    "tickets": [
+                        {
+                            "Person ID": 709111,
+                            "Ticket ID": 9452820337,
+                            "Person Name": "John",
+                            "Team Name": "B",
+                            "Ticket Status": "Open",
+                            "Ticket Priority": "High",
+                            "Ticket Create Date": "2026-01-17 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Software"
+                        },
+                        {
+                            "Person ID": 709111,
+                            "Ticket ID": 8274928246,
+                            "Person Name": "John",
+                            "Team Name": "B",
+                            "Ticket Status": "In Progress",
+                            "Ticket Priority": "Low",
+                            "Ticket Create Date": "2026-01-03 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Software"
+                        },
+                        {
+                            "Person ID": 709111,
+                            "Ticket ID": 5370159264,
+                            "Person Name": "John",
+                            "Team Name": "B",
+                            "Ticket Status": "In Progress",
+                            "Ticket Priority": "Low",
+                            "Ticket Create Date": "2026-01-20 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Software"
+                        },
+                        {
+                            "Person ID": 709111,
+                            "Ticket ID": 9267328736,
+                            "Person Name": "John",
+                            "Team Name": "B",
+                            "Ticket Status": "Closed",
+                            "Ticket Priority": "Low",
+                            "Ticket Create Date": "2026-01-12 00:00:00",
+                            "Ticket Closed Date": "2026-01-15 00:00:00",
+                            "Ticket Category": "Hardware"
+                        }
+                    ]
+                },
+                {
+                    "person_name": "Jordan",
+                    "tickets": [
+                        {
+                            "Person ID": 619713,
+                            "Ticket ID": 3520195892,
+                            "Person Name": "Jordan",
+                            "Team Name": "B",
+                            "Ticket Status": "Closed",
+                            "Ticket Priority": "Low",
+                            "Ticket Create Date": "2026-01-08 00:00:00",
+                            "Ticket Closed Date": "2026-01-12 00:00:00",
+                            "Ticket Category": "Software"
+                        },
+                        {
+                            "Person ID": 619713,
+                            "Ticket ID": 4454637022,
+                            "Person Name": "Jordan",
+                            "Team Name": "B",
+                            "Ticket Status": "Open",
+                            "Ticket Priority": "High",
+                            "Ticket Create Date": "2026-01-11 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Hardware"
+                        }
+                    ]
+                },
+                {
+                    "person_name": "Joseph",
+                    "tickets": [
+                        {
+                            "Person ID": 559590,
+                            "Ticket ID": 7196834264,
+                            "Person Name": "Joseph",
+                            "Team Name": "B",
+                            "Ticket Status": "Closed",
+                            "Ticket Priority": "Medium",
+                            "Ticket Create Date": "2026-01-13 00:00:00",
+                            "Ticket Closed Date": "2026-01-15 00:00:00",
+                            "Ticket Category": "Hardware"
+                        },
+                        {
+                            "Person ID": 559590,
+                            "Ticket ID": 3632729845,
+                            "Person Name": "Joseph",
+                            "Team Name": "B",
+                            "Ticket Status": "Open",
+                            "Ticket Priority": "Low",
+                            "Ticket Create Date": "2026-01-07 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Hardware"
+                        },
+                        {
+                            "Person ID": 559590,
+                            "Ticket ID": 7972209093,
+                            "Person Name": "Joseph",
+                            "Team Name": "B",
+                            "Ticket Status": "In Progress",
+                            "Ticket Priority": "Medium",
+                            "Ticket Create Date": "2026-01-15 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Hardware"
+                        },
+                        {
+                            "Person ID": 559590,
+                            "Ticket ID": 2883954184,
+                            "Person Name": "Joseph",
+                            "Team Name": "B",
+                            "Ticket Status": "Open",
+                            "Ticket Priority": "High",
+                            "Ticket Create Date": "2026-01-19 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Hardware"
+                        }
+                    ]
+                },
+                {
+                    "person_name": "Michael",
+                    "tickets": [
+                        {
+                            "Person ID": 566844,
+                            "Ticket ID": 9421478527,
+                            "Person Name": "Michael",
+                            "Team Name": "B",
+                            "Ticket Status": "In Progress",
+                            "Ticket Priority": "Medium",
+                            "Ticket Create Date": "2026-01-02 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Hardware"
+                        },
+                        {
+                            "Person ID": 566844,
+                            "Ticket ID": 2778083912,
+                            "Person Name": "Michael",
+                            "Team Name": "B",
+                            "Ticket Status": "Closed",
+                            "Ticket Priority": "Medium",
+                            "Ticket Create Date": "2026-01-04 00:00:00",
+                            "Ticket Closed Date": "2026-01-05 00:00:00",
+                            "Ticket Category": "Software"
+                        }
+                    ]
+                },
+                {
+                    "person_name": "Miller",
+                    "tickets": [
+                        {
+                            "Person ID": 718293,
+                            "Ticket ID": 3556659595,
+                            "Person Name": "Miller",
+                            "Team Name": "B",
+                            "Ticket Status": "In Progress",
+                            "Ticket Priority": "Low",
+                            "Ticket Create Date": "2026-01-20 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Hardware"
+                        },
+                        {
+                            "Person ID": 718293,
+                            "Ticket ID": 1084834631,
+                            "Person Name": "Miller",
+                            "Team Name": "B",
+                            "Ticket Status": "In Progress",
+                            "Ticket Priority": "High",
+                            "Ticket Create Date": "2026-01-09 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Software"
+                        },
+                        {
+                            "Person ID": 718293,
+                            "Ticket ID": 9103037408,
+                            "Person Name": "Miller",
+                            "Team Name": "B",
+                            "Ticket Status": "Closed",
+                            "Ticket Priority": "Medium",
+                            "Ticket Create Date": "2026-01-17 00:00:00",
+                            "Ticket Closed Date": "2026-01-20 00:00:00",
+                            "Ticket Category": "Hardware"
+                        },
+                        {
+                            "Person ID": 718293,
+                            "Ticket ID": 5126966433,
+                            "Person Name": "Miller",
+                            "Team Name": "B",
+                            "Ticket Status": "Open",
+                            "Ticket Priority": "High",
+                            "Ticket Create Date": "2026-01-09 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Software"
+                        }
+                    ]
+                },
+                {
+                    "person_name": "Robert",
+                    "tickets": [
+                        {
+                            "Person ID": 720928,
+                            "Ticket ID": 5276781756,
+                            "Person Name": "Robert",
+                            "Team Name": "B",
+                            "Ticket Status": "Closed",
+                            "Ticket Priority": "Low",
+                            "Ticket Create Date": "2026-01-16 00:00:00",
+                            "Ticket Closed Date": "2026-01-20 00:00:00",
+                            "Ticket Category": "Hardware"
+                        }
+                    ]
+                },
+                {
+                    "person_name": "Thomas",
+                    "tickets": [
+                        {
+                            "Person ID": 456159,
+                            "Ticket ID": 5708105729,
+                            "Person Name": "Thomas",
+                            "Team Name": "B",
+                            "Ticket Status": "In Progress",
+                            "Ticket Priority": "Low",
+                            "Ticket Create Date": "2026-01-13 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Software"
+                        },
+                        {
+                            "Person ID": 456159,
+                            "Ticket ID": 3801437173,
+                            "Person Name": "Thomas",
+                            "Team Name": "B",
+                            "Ticket Status": "Open",
+                            "Ticket Priority": "Medium",
+                            "Ticket Create Date": "2026-01-20 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Software"
+                        }
+                    ]
+                },
+                {
+                    "person_name": "William",
+                    "tickets": [
+                        {
+                            "Person ID": 140665,
+                            "Ticket ID": 8521289192,
+                            "Person Name": "William",
+                            "Team Name": "B",
+                            "Ticket Status": "Open",
+                            "Ticket Priority": "Low",
+                            "Ticket Create Date": "2026-01-11 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Hardware"
+                        },
+                        {
+                            "Person ID": 140665,
+                            "Ticket ID": 8697088781,
+                            "Person Name": "William",
+                            "Team Name": "B",
+                            "Ticket Status": "Open",
+                            "Ticket Priority": "High",
+                            "Ticket Create Date": "2026-01-04 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Software"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "team_name": "C",
+            "members": [
+                {
+                    "person_name": "Andrew",
+                    "tickets": [
+                        {
+                            "Person ID": 181809,
+                            "Ticket ID": 8140746688,
+                            "Person Name": "Andrew",
+                            "Team Name": "C",
+                            "Ticket Status": "Open",
+                            "Ticket Priority": "Low",
+                            "Ticket Create Date": "2026-01-19 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Software"
+                        },
+                        {
+                            "Person ID": 181809,
+                            "Ticket ID": 3582066180,
+                            "Person Name": "Andrew",
+                            "Team Name": "C",
+                            "Ticket Status": "Open",
+                            "Ticket Priority": "Medium",
+                            "Ticket Create Date": "2026-01-19 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Hardware"
+                        }
+                    ]
+                },
+                {
+                    "person_name": "David",
+                    "tickets": [
+                        {
+                            "Person ID": 617423,
+                            "Ticket ID": 7572774661,
+                            "Person Name": "David",
+                            "Team Name": "C",
+                            "Ticket Status": "In Progress",
+                            "Ticket Priority": "High",
+                            "Ticket Create Date": "2026-01-13 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Software"
+                        },
+                        {
+                            "Person ID": 617423,
+                            "Ticket ID": 5976524409,
+                            "Person Name": "David",
+                            "Team Name": "C",
+                            "Ticket Status": "In Progress",
+                            "Ticket Priority": "Low",
+                            "Ticket Create Date": "2026-01-03 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Hardware"
+                        },
+                        {
+                            "Person ID": 617423,
+                            "Ticket ID": 1842071253,
+                            "Person Name": "David",
+                            "Team Name": "C",
+                            "Ticket Status": "Open",
+                            "Ticket Priority": "Low",
+                            "Ticket Create Date": "2026-01-14 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Software"
+                        }
+                    ]
+                },
+                {
+                    "person_name": "Jacob",
+                    "tickets": [
+                        {
+                            "Person ID": 818410,
+                            "Ticket ID": 3540237807,
+                            "Person Name": "Jacob",
+                            "Team Name": "C",
+                            "Ticket Status": "In Progress",
+                            "Ticket Priority": "High",
+                            "Ticket Create Date": "2026-01-15 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Hardware"
+                        },
+                        {
+                            "Person ID": 818410,
+                            "Ticket ID": 2954156407,
+                            "Person Name": "Jacob",
+                            "Team Name": "C",
+                            "Ticket Status": "Open",
+                            "Ticket Priority": "High",
+                            "Ticket Create Date": "2026-01-15 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Hardware"
+                        },
+                        {
+                            "Person ID": 818410,
+                            "Ticket ID": 3149445514,
+                            "Person Name": "Jacob",
+                            "Team Name": "C",
+                            "Ticket Status": "Open",
+                            "Ticket Priority": "High",
+                            "Ticket Create Date": "2026-01-02 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Hardware"
+                        }
+                    ]
+                },
+                {
+                    "person_name": "James",
+                    "tickets": [
+                        {
+                            "Person ID": 665937,
+                            "Ticket ID": 1230392446,
+                            "Person Name": "James",
+                            "Team Name": "C",
+                            "Ticket Status": "In Progress",
+                            "Ticket Priority": "High",
+                            "Ticket Create Date": "2026-01-03 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Software"
+                        },
+                        {
+                            "Person ID": 665937,
+                            "Ticket ID": 5519088096,
+                            "Person Name": "James",
+                            "Team Name": "C",
+                            "Ticket Status": "Closed",
+                            "Ticket Priority": "Medium",
+                            "Ticket Create Date": "2026-01-07 00:00:00",
+                            "Ticket Closed Date": "2026-01-09 00:00:00",
+                            "Ticket Category": "Software"
+                        },
+                        {
+                            "Person ID": 665937,
+                            "Ticket ID": 7007413495,
+                            "Person Name": "James",
+                            "Team Name": "C",
+                            "Ticket Status": "In Progress",
+                            "Ticket Priority": "Medium",
+                            "Ticket Create Date": "2026-01-15 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Hardware"
+                        },
+                        {
+                            "Person ID": 665937,
+                            "Ticket ID": 1426947160,
+                            "Person Name": "James",
+                            "Team Name": "C",
+                            "Ticket Status": "In Progress",
+                            "Ticket Priority": "Medium",
+                            "Ticket Create Date": "2026-01-14 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Hardware"
+                        },
+                        {
+                            "Person ID": 665937,
+                            "Ticket ID": 5555051085,
+                            "Person Name": "James",
+                            "Team Name": "C",
+                            "Ticket Status": "In Progress",
+                            "Ticket Priority": "High",
+                            "Ticket Create Date": "2026-01-05 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Hardware"
+                        }
+                    ]
+                },
+                {
+                    "person_name": "John",
+                    "tickets": [
+                        {
+                            "Person ID": 709111,
+                            "Ticket ID": 7026578513,
+                            "Person Name": "John",
+                            "Team Name": "C",
+                            "Ticket Status": "In Progress",
+                            "Ticket Priority": "Medium",
+                            "Ticket Create Date": "2026-01-09 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Software"
+                        },
+                        {
+                            "Person ID": 709111,
+                            "Ticket ID": 2770495739,
+                            "Person Name": "John",
+                            "Team Name": "C",
+                            "Ticket Status": "Closed",
+                            "Ticket Priority": "High",
+                            "Ticket Create Date": "2026-01-07 00:00:00",
+                            "Ticket Closed Date": "2026-01-09 00:00:00",
+                            "Ticket Category": "Software"
+                        },
+                        {
+                            "Person ID": 709111,
+                            "Ticket ID": 1442220489,
+                            "Person Name": "John",
+                            "Team Name": "C",
+                            "Ticket Status": "Closed",
+                            "Ticket Priority": "Medium",
+                            "Ticket Create Date": "2026-01-07 00:00:00",
+                            "Ticket Closed Date": "2026-01-09 00:00:00",
+                            "Ticket Category": "Hardware"
+                        }
+                    ]
+                },
+                {
+                    "person_name": "Jordan",
+                    "tickets": [
+                        {
+                            "Person ID": 619713,
+                            "Ticket ID": 3619372752,
+                            "Person Name": "Jordan",
+                            "Team Name": "C",
+                            "Ticket Status": "Open",
+                            "Ticket Priority": "Low",
+                            "Ticket Create Date": "2026-01-05 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Software"
+                        },
+                        {
+                            "Person ID": 619713,
+                            "Ticket ID": 3234653041,
+                            "Person Name": "Jordan",
+                            "Team Name": "C",
+                            "Ticket Status": "Closed",
+                            "Ticket Priority": "Medium",
+                            "Ticket Create Date": "2026-01-08 00:00:00",
+                            "Ticket Closed Date": "2026-01-11 00:00:00",
+                            "Ticket Category": "Hardware"
+                        }
+                    ]
+                },
+                {
+                    "person_name": "Joseph",
+                    "tickets": [
+                        {
+                            "Person ID": 559590,
+                            "Ticket ID": 7017313949,
+                            "Person Name": "Joseph",
+                            "Team Name": "C",
+                            "Ticket Status": "Open",
+                            "Ticket Priority": "Low",
+                            "Ticket Create Date": "2026-01-09 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Software"
+                        },
+                        {
+                            "Person ID": 559590,
+                            "Ticket ID": 4049301066,
+                            "Person Name": "Joseph",
+                            "Team Name": "C",
+                            "Ticket Status": "In Progress",
+                            "Ticket Priority": "High",
+                            "Ticket Create Date": "2026-01-09 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Hardware"
+                        },
+                        {
+                            "Person ID": 559590,
+                            "Ticket ID": 9791413041,
+                            "Person Name": "Joseph",
+                            "Team Name": "C",
+                            "Ticket Status": "Closed",
+                            "Ticket Priority": "High",
+                            "Ticket Create Date": "2026-01-05 00:00:00",
+                            "Ticket Closed Date": "2026-01-10 00:00:00",
+                            "Ticket Category": "Software"
+                        }
+                    ]
+                },
+                {
+                    "person_name": "Michael",
+                    "tickets": [
+                        {
+                            "Person ID": 566844,
+                            "Ticket ID": 7187348856,
+                            "Person Name": "Michael",
+                            "Team Name": "C",
+                            "Ticket Status": "Open",
+                            "Ticket Priority": "Low",
+                            "Ticket Create Date": "2026-01-08 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Software"
+                        },
+                        {
+                            "Person ID": 566844,
+                            "Ticket ID": 7451353876,
+                            "Person Name": "Michael",
+                            "Team Name": "C",
+                            "Ticket Status": "In Progress",
+                            "Ticket Priority": "Low",
+                            "Ticket Create Date": "2026-01-04 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Hardware"
+                        }
+                    ]
+                },
+                {
+                    "person_name": "Miller",
+                    "tickets": [
+                        {
+                            "Person ID": 718293,
+                            "Ticket ID": 7062078351,
+                            "Person Name": "Miller",
+                            "Team Name": "C",
+                            "Ticket Status": "Closed",
+                            "Ticket Priority": "High",
+                            "Ticket Create Date": "2026-01-08 00:00:00",
+                            "Ticket Closed Date": "2026-01-12 00:00:00",
+                            "Ticket Category": "Hardware"
+                        }
+                    ]
+                },
+                {
+                    "person_name": "Robert",
+                    "tickets": [
+                        {
+                            "Person ID": 720928,
+                            "Ticket ID": 2401161341,
+                            "Person Name": "Robert",
+                            "Team Name": "C",
+                            "Ticket Status": "Open",
+                            "Ticket Priority": "High",
+                            "Ticket Create Date": "2026-01-01 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Hardware"
+                        }
+                    ]
+                },
+                {
+                    "person_name": "Thomas",
+                    "tickets": [
+                        {
+                            "Person ID": 456159,
+                            "Ticket ID": 5850745237,
+                            "Person Name": "Thomas",
+                            "Team Name": "C",
+                            "Ticket Status": "Open",
+                            "Ticket Priority": "High",
+                            "Ticket Create Date": "2026-01-12 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Software"
+                        },
+                        {
+                            "Person ID": 456159,
+                            "Ticket ID": 1808641725,
+                            "Person Name": "Thomas",
+                            "Team Name": "C",
+                            "Ticket Status": "Open",
+                            "Ticket Priority": "High",
+                            "Ticket Create Date": "2026-01-17 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Software"
+                        }
+                    ]
+                },
+                {
+                    "person_name": "William",
+                    "tickets": [
+                        {
+                            "Person ID": 140665,
+                            "Ticket ID": 4554713625,
+                            "Person Name": "William",
+                            "Team Name": "C",
+                            "Ticket Status": "In Progress",
+                            "Ticket Priority": "Medium",
+                            "Ticket Create Date": "2026-01-17 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Hardware"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "team_name": "D",
+            "members": [
+                {
+                    "person_name": "Andrew",
+                    "tickets": [
+                        {
+                            "Person ID": 181809,
+                            "Ticket ID": 3612707665,
+                            "Person Name": "Andrew",
+                            "Team Name": "D",
+                            "Ticket Status": "Closed",
+                            "Ticket Priority": "Low",
+                            "Ticket Create Date": "2026-01-16 00:00:00",
+                            "Ticket Closed Date": "2026-01-18 00:00:00",
+                            "Ticket Category": "Hardware"
+                        }
+                    ]
+                },
+                {
+                    "person_name": "David",
+                    "tickets": [
+                        {
+                            "Person ID": 617423,
+                            "Ticket ID": 7900488353,
+                            "Person Name": "David",
+                            "Team Name": "D",
+                            "Ticket Status": "Open",
+                            "Ticket Priority": "High",
+                            "Ticket Create Date": "2026-01-03 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Hardware"
+                        },
+                        {
+                            "Person ID": 617423,
+                            "Ticket ID": 6690380399,
+                            "Person Name": "David",
+                            "Team Name": "D",
+                            "Ticket Status": "Open",
+                            "Ticket Priority": "Low",
+                            "Ticket Create Date": "2026-01-20 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Hardware"
+                        },
+                        {
+                            "Person ID": 617423,
+                            "Ticket ID": 3670172780,
+                            "Person Name": "David",
+                            "Team Name": "D",
+                            "Ticket Status": "Closed",
+                            "Ticket Priority": "Low",
+                            "Ticket Create Date": "2026-01-01 00:00:00",
+                            "Ticket Closed Date": "2026-01-05 00:00:00",
+                            "Ticket Category": "Software"
+                        }
+                    ]
+                },
+                {
+                    "person_name": "Jacob",
+                    "tickets": [
+                        {
+                            "Person ID": 818410,
+                            "Ticket ID": 7314320839,
+                            "Person Name": "Jacob",
+                            "Team Name": "D",
+                            "Ticket Status": "Closed",
+                            "Ticket Priority": "High",
+                            "Ticket Create Date": "2026-01-08 00:00:00",
+                            "Ticket Closed Date": "2026-01-10 00:00:00",
+                            "Ticket Category": "Software"
+                        }
+                    ]
+                },
+                {
+                    "person_name": "James",
+                    "tickets": [
+                        {
+                            "Person ID": 665937,
+                            "Ticket ID": 9515223063,
+                            "Person Name": "James",
+                            "Team Name": "D",
+                            "Ticket Status": "Closed",
+                            "Ticket Priority": "Medium",
+                            "Ticket Create Date": "2026-01-17 00:00:00",
+                            "Ticket Closed Date": "2026-01-20 00:00:00",
+                            "Ticket Category": "Software"
+                        },
+                        {
+                            "Person ID": 665937,
+                            "Ticket ID": 2779128104,
+                            "Person Name": "James",
+                            "Team Name": "D",
+                            "Ticket Status": "Open",
+                            "Ticket Priority": "Medium",
+                            "Ticket Create Date": "2026-01-13 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Hardware"
+                        },
+                        {
+                            "Person ID": 665937,
+                            "Ticket ID": 8877814295,
+                            "Person Name": "James",
+                            "Team Name": "D",
+                            "Ticket Status": "Closed",
+                            "Ticket Priority": "Low",
+                            "Ticket Create Date": "2026-01-05 00:00:00",
+                            "Ticket Closed Date": "2026-01-09 00:00:00",
+                            "Ticket Category": "Hardware"
+                        }
+                    ]
+                },
+                {
+                    "person_name": "John",
+                    "tickets": [
+                        {
+                            "Person ID": 709111,
+                            "Ticket ID": 9930396600,
+                            "Person Name": "John",
+                            "Team Name": "D",
+                            "Ticket Status": "Closed",
+                            "Ticket Priority": "Medium",
+                            "Ticket Create Date": "2026-01-18 00:00:00",
+                            "Ticket Closed Date": "2026-01-20 00:00:00",
+                            "Ticket Category": "Software"
+                        }
+                    ]
+                },
+                {
+                    "person_name": "Jordan",
+                    "tickets": [
+                        {
+                            "Person ID": 619713,
+                            "Ticket ID": 6771783567,
+                            "Person Name": "Jordan",
+                            "Team Name": "D",
+                            "Ticket Status": "In Progress",
+                            "Ticket Priority": "High",
+                            "Ticket Create Date": "2026-01-14 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Software"
+                        },
+                        {
+                            "Person ID": 619713,
+                            "Ticket ID": 4621655256,
+                            "Person Name": "Jordan",
+                            "Team Name": "D",
+                            "Ticket Status": "Closed",
+                            "Ticket Priority": "Low",
+                            "Ticket Create Date": "2026-01-13 00:00:00",
+                            "Ticket Closed Date": "2026-01-14 00:00:00",
+                            "Ticket Category": "Software"
+                        },
+                        {
+                            "Person ID": 619713,
+                            "Ticket ID": 3184398360,
+                            "Person Name": "Jordan",
+                            "Team Name": "D",
+                            "Ticket Status": "Open",
+                            "Ticket Priority": "Medium",
+                            "Ticket Create Date": "2026-01-04 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Software"
+                        }
+                    ]
+                },
+                {
+                    "person_name": "Joseph",
+                    "tickets": [
+                        {
+                            "Person ID": 559590,
+                            "Ticket ID": 8226004508,
+                            "Person Name": "Joseph",
+                            "Team Name": "D",
+                            "Ticket Status": "In Progress",
+                            "Ticket Priority": "Low",
+                            "Ticket Create Date": "2026-01-03 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Software"
+                        }
+                    ]
+                },
+                {
+                    "person_name": "Michael",
+                    "tickets": [
+                        {
+                            "Person ID": 566844,
+                            "Ticket ID": 6829568558,
+                            "Person Name": "Michael",
+                            "Team Name": "D",
+                            "Ticket Status": "In Progress",
+                            "Ticket Priority": "High",
+                            "Ticket Create Date": "2026-01-18 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Hardware"
+                        },
+                        {
+                            "Person ID": 566844,
+                            "Ticket ID": 3700926252,
+                            "Person Name": "Michael",
+                            "Team Name": "D",
+                            "Ticket Status": "Closed",
+                            "Ticket Priority": "High",
+                            "Ticket Create Date": "2026-01-02 00:00:00",
+                            "Ticket Closed Date": "2026-01-07 00:00:00",
+                            "Ticket Category": "Software"
+                        },
+                        {
+                            "Person ID": 566844,
+                            "Ticket ID": 3604406738,
+                            "Person Name": "Michael",
+                            "Team Name": "D",
+                            "Ticket Status": "Closed",
+                            "Ticket Priority": "Medium",
+                            "Ticket Create Date": "2026-01-18 00:00:00",
+                            "Ticket Closed Date": "2026-01-20 00:00:00",
+                            "Ticket Category": "Software"
+                        },
+                        {
+                            "Person ID": 566844,
+                            "Ticket ID": 7768182993,
+                            "Person Name": "Michael",
+                            "Team Name": "D",
+                            "Ticket Status": "In Progress",
+                            "Ticket Priority": "High",
+                            "Ticket Create Date": "2026-01-15 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Software"
+                        }
+                    ]
+                },
+                {
+                    "person_name": "Miller",
+                    "tickets": [
+                        {
+                            "Person ID": 718293,
+                            "Ticket ID": 8894687577,
+                            "Person Name": "Miller",
+                            "Team Name": "D",
+                            "Ticket Status": "In Progress",
+                            "Ticket Priority": "Low",
+                            "Ticket Create Date": "2026-01-07 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Hardware"
+                        },
+                        {
+                            "Person ID": 718293,
+                            "Ticket ID": 6018219442,
+                            "Person Name": "Miller",
+                            "Team Name": "D",
+                            "Ticket Status": "Closed",
+                            "Ticket Priority": "Medium",
+                            "Ticket Create Date": "2026-01-13 00:00:00",
+                            "Ticket Closed Date": "2026-01-17 00:00:00",
+                            "Ticket Category": "Hardware"
+                        }
+                    ]
+                },
+                {
+                    "person_name": "William",
+                    "tickets": [
+                        {
+                            "Person ID": 140665,
+                            "Ticket ID": 7355784514,
+                            "Person Name": "William",
+                            "Team Name": "D",
+                            "Ticket Status": "Closed",
+                            "Ticket Priority": "High",
+                            "Ticket Create Date": "2026-01-21 00:00:00",
+                            "Ticket Closed Date": "2026-01-24 00:00:00",
+                            "Ticket Category": "Software"
+                        },
+                        {
+                            "Person ID": 140665,
+                            "Ticket ID": 3605177885,
+                            "Person Name": "William",
+                            "Team Name": "D",
+                            "Ticket Status": "In Progress",
+                            "Ticket Priority": "High",
+                            "Ticket Create Date": "2026-01-08 00:00:00",
+                            "Ticket Closed Date": null,
+                            "Ticket Category": "Hardware"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
