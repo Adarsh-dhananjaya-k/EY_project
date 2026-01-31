@@ -1,6 +1,3 @@
-Here is a clean, professional, and realistic README.md file you could use for this project.
-
-```markdown
 # EY Query Management Agent
 
 A simple AI-powered internal tool for EY teams to query, manage, and analyze support tickets using natural language.
