@@ -676,5 +676,101 @@
     "user_id": "manager_01",
     "user_message": "reassign the ticket  1301345282 to  Andrew from Team A",
     "bot_response": "I'm unable to reassign ticket 1301345282 because it could not be found in the system for reassignment. Please check the ticket details or let me know if you need help with a different ticket."
+  },
+  {
+    "time": "2026-01-31 16:01:24.697908",
+    "user_id": "manager_01",
+    "user_message": "reassign the ticket  1301345282 to  Andrew from Team A\"",
+    "bot_response": "I'm unable to reassign ticket 1301345282, as it could not be found for the reassignment process. Please verify the ticket ID or let me know if you need assistance with another ticket."
+  },
+  {
+    "time": "2026-01-31 16:02:36.903936",
+    "user_id": "manager_01",
+    "user_message": "reassign the ticket  1301345282 to  Andrew from Team A\"",
+    "bot_response": "I'm unable to reassign ticket 1301345282 because it could not be found for reassignment. Please verify the ticket ID or provide further details so I can assist you."
+  },
+  {
+    "time": "2026-01-31 16:04:35.476234",
+    "user_id": "manager_01",
+    "user_message": "reassign the ticket  1301345282 to  Andrew from Team A\\",
+    "bot_response": "I am unable to reassign ticket 1301345282 because it cannot be found in the system. Please check the ticket ID or provide further details if you need assistance with a different ticket."
+  },
+  {
+    "time": "2026-01-31 16:06:01.831964",
+    "user_id": "manager_01",
+    "user_message": "\"reassign the ticket  7900488353 to  Andrew from Team A\\",
+    "bot_response": "I'm unable to reassign ticket 7900488353 because it could not be found in the system. Please verify the ticket ID or provide more details to proceed."
+  },
+  {
+    "time": "2026-01-31 16:06:47.447768",
+    "user_id": "manager_01",
+    "user_message": "7900488353",
+    "bot_response": "Action completed."
+  },
+  {
+    "time": "2026-01-31 16:07:18.173539",
+    "user_id": "manager_01",
+    "user_message": "reassign the ticket  7900488353 to  Andrew from Team A",
+    "bot_response": "I'm unable to reassign ticket 7900488353 because it could not be found or no changes were made. Please verify the ticket ID or let me know if you'd like to proceed with a different ticket or provide more details."
+  },
+  {
+    "time": "2026-01-31 16:07:56.309360",
+    "user_id": "manager_01",
+    "user_message": "name the ticket reassign 7900488353  close",
+    "bot_response": "I am unable to close ticket 7900488353 because it was not found in the system. Please verify the ticket ID or provide additional details to proceed."
+  },
+  {
+    "time": "2026-01-31 16:08:15.068830",
+    "user_id": "manager_01",
+    "user_message": "Reassign ticket 1301345282 to Andrew from Team A",
+    "bot_response": "I'm unable to reassign ticket 1301345282 because it could not be found. Please verify the ticket ID or provide further details."
+  },
+  {
+    "time": "2026-01-31 16:08:26.993147",
+    "user_id": "manager_01",
+    "user_message": "Reassign ticket 1301345282 to Andrew",
+    "bot_response": "I'm unable to reassign ticket 1301345282 because it could not be found. Please double-check the ticket ID or let me know if you need help with a different ticket."
+  },
+  {
+    "time": "2026-01-31 16:10:16.416906",
+    "user_id": "manager_01",
+    "user_message": "reassign the 3632729845 to john of team c",
+    "bot_response": "I'm unable to reassign ticket 3632729845 because it could not be found. Please verify the ticket ID or provide additional details so I can assist further."
+  },
+  {
+    "time": "2026-01-31 16:13:11.995908",
+    "user_id": "manager_01",
+    "user_message": "Reassign ticket 1301345282 to Andrew",
+    "bot_response": "I'm unable to reassign ticket 1301345282 to Andrew because the ticket could not be found. Please verify the ticket ID or provide more details."
+  },
+  {
+    "time": "2026-01-31 16:14:59.597559",
+    "user_id": "manager_01",
+    "user_message": "Reassign ticket 1301345282 to Andrew",
+    "bot_response": "I'm unable to reassign ticket 1301345282 to Andrew because the ticket could not be found. Please verify the ticket ID so I can assist you further."
+  },
+  {
+    "time": "2026-01-31 16:16:40.663804",
+    "user_id": "manager_01",
+    "user_message": "Reassign ticket 1301345282 to Andrew",
+    "bot_response": "Action completed."
+  },
+  {
+    "time": "2026-01-31 16:17:19.088325",
+    "user_id": "manager_01",
+    "user_message": "Reassign ticket 1301345282 to Andrew of team A",
+    "bot_response": "I wasn't able to reassign ticket 1301345282 to Andrew of team A, as the ticket could not be found or no changes were made. Please verify the ticket details and try again."
+  },
+  {
+    "time": "2026-01-31 16:18:52.156429",
+    "user_id": "manager_01",
+    "user_message": "Reassign ticket 1301345282 to Andrew",
+    "bot_response": "Ticket 1301345282 has been successfully reassigned to Andrew.\n\nIf you need further actions or details, please let me know!"
+  },
+  {
+    "time": "2026-01-31 16:24:43.972118",
+    "user_id": "manager_01",
+    "user_message": "please change the tickect status of the tickect 8274928246 to open and reassign it to jacob team B",
+    "bot_response": "Action completed."
   }
 ]

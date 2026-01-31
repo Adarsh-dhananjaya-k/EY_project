@@ -109,24 +109,51 @@ def get_open_tickets_by_team(team: str):
     return filtered.to_string(index=False)
 
 
+from convert_to_json import convert_tickets_to_json
+
 def close_ticket(ticket_id: str):
     success = update_ticket(ticket_id, "Ticket Status", "Closed")
-    return f"Ticket {ticket_id} CLOSED." if success else f"Ticket {ticket_id} not found."
+    if success:
+        convert_tickets_to_json()
+        return f"Ticket {ticket_id} CLOSED." 
+    return f"Ticket {ticket_id} not found."
 
 
 def reopen_ticket(ticket_id: str):
     success = update_ticket(ticket_id, "Ticket Status", "Open")
-    return f"Ticket {ticket_id} REOPENED." if success else f"Ticket {ticket_id} not found."
+    if success:
+        convert_tickets_to_json()
+        return f"Ticket {ticket_id} REOPENED."
+    return f"Ticket {ticket_id} not found."
 
 
-def assign_ticket(ticket_id: str, team: str):
-    success = update_ticket(ticket_id, "Team Name", team)
-    return f"Ticket {ticket_id} assigned to {team}." if success else f"Ticket {ticket_id} not found."
+def assign_ticket(ticket_id: str, team: str = None, person_name: str = None):
+    success = False
+    msg_parts = []
+    
+    if team:
+        if update_ticket(ticket_id, "Team Name", team):
+            success = True
+            msg_parts.append(f"Team set to {team}")
+    
+    if person_name:
+        if update_ticket(ticket_id, "Person Name", person_name):
+            success = True
+            msg_parts.append(f"Assigned to {person_name}")
+
+    if success:
+        convert_tickets_to_json()
+        return f"Ticket {ticket_id} updated: " + ", ".join(msg_parts)
+    
+    return f"Ticket {ticket_id} not found or no changes made."
 
 
 def change_priority(ticket_id: str, priority: str):
     success = update_ticket(ticket_id, "Ticket Priority", priority)
-    return f"Priority of {ticket_id} set to {priority}." if success else f"Ticket {ticket_id} not found."
+    if success:
+        convert_tickets_to_json()
+        return f"Priority of {ticket_id} set to {priority}."
+    return f"Ticket {ticket_id} not found."
 
 
 # ────────────────────────────────────────────────

@@ -60,10 +60,14 @@ def convert_tickets_to_json():
                     elif isinstance(value, (pd.Timestamp, pd.Timedelta)):
                         ticket_data[key] = str(value)
 
-                # Clean up specific fields as requested (Status, Assignment info is inherent in the user grouping)
-                # The user asked for "their tickets, their status, and their assignment"
-                # detailed ticket object covers this.
-                
+                # Ensure Ticket Closed Date exists in JSON
+                if "Ticket Closed Date" not in ticket_data:
+                    ticket_data["Ticket Closed Date"] = None
+
+                # Ensure Ticket Updated Date exists in JSON
+                if "Ticket Updated Date" not in ticket_data:
+                    ticket_data["Ticket Updated Date"] = None
+
                 member_obj["tickets"].append(ticket_data)
 
             team_obj["members"].append(member_obj)

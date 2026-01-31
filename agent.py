@@ -185,14 +185,15 @@ Core Rules:
             "type": "function",
             "function": {
                 "name": "assign_ticket",
-                "description": "Assign or reassign ticket to a team",
+                "description": "Assign or reassign ticket to a team and/or a specific person.",
                 "parameters": {
                     "type": "object",
                     "properties": {
                         "ticket_id": {"type": "string"},
-                        "team": {"type": "string"}
+                        "team": {"type": "string", "description": "Name of the team (optional)"},
+                        "person_name": {"type": "string", "description": "Name of the person to assign to (optional)"}
                     },
-                    "required": ["ticket_id", "team"]
+                    "required": ["ticket_id"]
                 }
             }
         },
